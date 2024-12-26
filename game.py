@@ -48,3 +48,5 @@ def display_answer(answer)
 
 def main():
     pass
+
+is __name__
