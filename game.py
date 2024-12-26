@@ -47,7 +47,7 @@ def display_answer(answer)
     pass
 
 def main():
-    answer = 
+    answer = random
 
 if __name__ == "__main__":
     main()
