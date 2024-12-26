@@ -37,4 +37,5 @@ hangman_art = {0: ("  ",
 for line in hangman_art[3]:
     print(line)
 
-
+def display_man(wrong_guesses):
+    pass
