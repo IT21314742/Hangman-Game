@@ -40,15 +40,16 @@ for line in hangman_art[3]:
 def display_man(wrong_guesses):
     pass
 
-def display_hint(hint)
+def display_hint(hint):
     pass
 
-def display_answer(answer)
+def display_answer(answer):
     pass
 
 def main():
     answer = random.choice(words)
     hint = ["_"] * len(answer)
+    wrong_guesses
 
 
 if __name__ == "__main__":
