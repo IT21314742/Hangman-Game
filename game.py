@@ -49,4 +49,5 @@ def display_answer(answer)
 def main():
     pass
 
-is __name__
+is __name__ == "__main":
+
