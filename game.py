@@ -49,7 +49,7 @@ def display_answer(answer):
 def main():
     answer = random.choice(words)
     hint = ["_"] * len(answer)
-    wrong_guesses = 
+    wrong_guesses = 0
 
 
 if __name__ == "__main__":
