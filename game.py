@@ -51,6 +51,7 @@ def main():
     hint = ["_"] * len(answer)
     wrong_guesses = 0
     guesses_letters = set()
+    
 
 
 if __name__ == "__main__":
