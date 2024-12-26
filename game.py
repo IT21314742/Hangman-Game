@@ -34,4 +34,7 @@ hangman_art = {0: ("  ",
                    " / \\"),
                    }
 
-print()
+for line in hangman_art[3]:
+    print(line)
+
+
