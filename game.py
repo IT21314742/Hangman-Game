@@ -1,3 +1,5 @@
 # Hangman game developed with Python
 
-words = ()
+import random
+
+words = ("apple", "orange", "banana", "Coconut", "Pineapple")
