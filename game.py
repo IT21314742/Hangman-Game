@@ -5,4 +5,7 @@ import random
 words = ("apple", "orange", "banana", "Coconut", "Pineapple")
 
 #dictionary of key:()
-hangman_art = {0: ("  ")}
+hangman_art = {0: ("  ",
+                   "  ",
+                   "  "),
+                   }
