@@ -50,7 +50,7 @@ def main():
     answer = random.choice(words)
     hint = ["_"] * len(answer)
     wrong_guesses = 0
-    guesses_letters = 
+    guesses_letters = set()
 
 
 if __name__ == "__main__":
