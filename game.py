@@ -49,5 +49,5 @@ def display_answer(answer)
 def main():
     pass
 
-is __name__ == "__main":
-
+if __name__ == "__main__":
+    main()
