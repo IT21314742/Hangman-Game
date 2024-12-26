@@ -46,4 +46,4 @@ def display_hint(hint)
 def display_answer(answer)
     pass
 
-
+def main()
