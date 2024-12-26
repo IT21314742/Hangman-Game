@@ -39,3 +39,5 @@ for line in hangman_art[3]:
 
 def display_man(wrong_guesses):
     pass
+
+
