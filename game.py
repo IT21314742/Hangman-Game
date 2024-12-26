@@ -43,4 +43,4 @@ def display_man(wrong_guesses):
 def display_hint(hint)
     pass
 
-def display_answer
+def display_answer(answer)
