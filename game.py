@@ -54,6 +54,5 @@ def main():
     is_running = True
 
 
-
 if __name__ == "__main__":
     main()
