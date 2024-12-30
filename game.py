@@ -72,7 +72,7 @@ def main():
             print(f"{guess} is already guessed")
             continue
 
-        guessed_letters.add()
+        guessed_letters.add(guess)
 
         if guess in answer:
             for i in range(len(answer)):
