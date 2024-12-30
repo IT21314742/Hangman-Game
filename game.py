@@ -82,7 +82,7 @@ def main():
         else:
             wrong_guesses  += 1
 
-        if "_" 
+        if "_" not
 
 
 
