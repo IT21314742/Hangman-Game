@@ -90,7 +90,7 @@ def main():
 
         elif wrong_guesses >= len(hangman_art) - 1:
             display_man(wrong_guesses)
-            display_answer
+            display_answer(answer)
 
 
 
