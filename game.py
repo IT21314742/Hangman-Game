@@ -1,5 +1,7 @@
 # Hangman game developed with Python
 
+
+from dictionary import words
 import random
 
 
