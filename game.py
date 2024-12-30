@@ -92,6 +92,7 @@ def main():
             display_man(wrong_guesses)
             display_answer(answer)
         print("YOU LOSE!")
+        is_running
 
 
 
