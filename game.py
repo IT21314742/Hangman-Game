@@ -69,7 +69,7 @@ def main():
 
 
         if guess in guessed_letters:
-            print()
+            print(f"")
 
         if guess in answer:
             for i in range(len(answer)):
