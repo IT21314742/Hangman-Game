@@ -55,7 +55,7 @@ def main():
     answer = random.choice(words)
     hint = ["_"] * len(answer)
     wrong_guesses = 0
-    guesses_letters = set()
+    guessed_letters = set()
     is_running = True
 
     while is_running:
@@ -71,6 +71,8 @@ def main():
         if guess in guessed_letters:
             print(f"{guess} is already guessed")
             continue
+
+        guessed_letters
 
         if guess in answer:
             for i in range(len(answer)):
