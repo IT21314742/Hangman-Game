@@ -63,11 +63,11 @@ def main():
         display_hint(hint)
         guess = input("Enter a letter: ").lower()
 
-        if len(guess) != 1:
+        if len(guess) != 1 or not guess.isalpha():
             print("invalid input")
             continue
 
-        
+
 
         if guess in answer:
             for i in range(len(answer)):
