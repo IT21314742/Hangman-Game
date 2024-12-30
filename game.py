@@ -67,6 +67,8 @@ def main():
             print("invalid input")
             continue
 
+        
+
         if guess in answer:
             for i in range(len(answer)):
                 if answer[i] == guess:
