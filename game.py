@@ -66,7 +66,7 @@ def main():
     if guess in answer:
         for i in range(len(answer)):
             if answer[i] == guess:
-                hint
+                hint[i] == guess
 
 
 
