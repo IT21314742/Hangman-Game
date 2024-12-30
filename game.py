@@ -63,6 +63,8 @@ def main():
         display_hint(hint)
         guess = input("Enter a letter: ").lower()
 
+        
+
         if guess in answer:
             for i in range(len(answer)):
                 if answer[i] == guess:
