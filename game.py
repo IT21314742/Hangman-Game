@@ -38,7 +38,8 @@ for line in hangman_art[3]:
     print(line)
 
 def display_man(wrong_guesses):
-    pass
+    for line in hangman_art[wrong_guesses]:
+        print(line)
 
 def display_hint(hint):
     pass
@@ -55,7 +56,9 @@ def main():
 
     while is_running:
         display_man(wrong_guesses)
-        display_hint
+        display_hint(hint)
+        guess = input("Enter a letter").lower()
+
 
 
 if __name__ == "__main__":
