@@ -86,7 +86,7 @@ def main():
             display_man(wrong_guesses)
             display_answer(answer)
             print("YOU WIN!")
-            is_running = 
+            is_running = False
 
 
 
