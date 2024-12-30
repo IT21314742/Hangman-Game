@@ -84,6 +84,7 @@ def main():
 
         if "_" not in hint:
             display_man(wrong_guesses)
+            
 
 
 
