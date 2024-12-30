@@ -82,7 +82,7 @@ def main():
         else:
             wrong_guesses  += 1
 
-        if "_" not
+        if "_" not in hint:
 
 
 
