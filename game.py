@@ -14,7 +14,7 @@ hangman_art = {0: ("  ",
                    "   "),
 
                 2: (" o ",
-                   " | ",
+                   "  | ",
                    "  "),
 
                 3: (" o ",
@@ -38,14 +38,18 @@ for line in hangman_art[3]:
     print(line)
 
 def display_man(wrong_guesses):
+    print("************")
     for line in hangman_art[wrong_guesses]:
         print(line)
+    print("**************")
 
 def display_hint(hint):
-    pass
+    print(" ".join(hint))
+
 
 def display_answer(answer):
-    pass
+    print(" ".join(answer))
+
 
 def main():
     answer = random.choice(words)
@@ -57,6 +61,7 @@ def main():
     while is_running:
         display_man(wrong_guesses)
         display_hint(hint)
+        display_answer(answer)
         guess = input("Enter a letter").lower()
 
 
