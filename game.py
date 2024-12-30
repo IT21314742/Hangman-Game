@@ -64,7 +64,7 @@ def main():
         guess = input("Enter a letter: ").lower()
 
         if len(guess) != 1:
-            print
+            print("invalid input")
 
         if guess in answer:
             for i in range(len(answer)):
