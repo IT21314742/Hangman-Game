@@ -80,7 +80,7 @@ def main():
                     hint[i] == guess
 
         else:
-            wrong_guesses 
+            wrong_guesses  
 
 
 
