@@ -68,7 +68,8 @@ def main():
             continue
 
 
-        if guess in guessed_letters
+        if guess in guessed_letters:
+            
 
         if guess in answer:
             for i in range(len(answer)):
