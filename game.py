@@ -53,6 +53,13 @@ def main():
     guesses_letters = set()
     is_running = True
 
+    while is_running:
+        display_man(wrong_guesses)
+        display_hint
+
 
 if __name__ == "__main__":
     main()
+
+
+
