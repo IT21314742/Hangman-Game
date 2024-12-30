@@ -88,7 +88,7 @@ def main():
             print("YOU WIN!")
             is_running = False
 
-        elif wrong_guesses
+        elif wrong_guesses >=
 
 
 
