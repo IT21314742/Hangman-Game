@@ -89,7 +89,7 @@ def main():
             is_running = False
 
         elif wrong_guesses >= len(hangman_art) - 1:
-            
+            display_man(wrong_guesses)
 
 
 
