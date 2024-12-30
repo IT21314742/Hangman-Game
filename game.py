@@ -79,7 +79,8 @@ def main():
                 if answer[i] == guess:
                     hint[i] == guess
 
-        else
+        else:
+            
 
 
 
