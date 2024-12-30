@@ -61,12 +61,14 @@ def main():
     while is_running:
         display_man(wrong_guesses)
         display_hint(hint)
-        guess = input("Enter a letter").lower()
+        guess = input("Enter a letter: ").lower()
 
-    if guess in answer:
-        for i in range(len(answer)):
-            if answer[i] == guess:
-                hint[i] == guess
+        
+
+        if guess in answer:
+            for i in range(len(answer)):
+                if answer[i] == guess:
+                    hint[i] == guess
 
 
 
